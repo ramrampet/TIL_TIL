@@ -41,3 +41,5 @@ CASE WHEN THEN
 - exists 랑 in 의 차이
 - IN 에 칼럼이나 테이블을 가져올 수는 없지만 문자열이나 숫자를 기입하는 건 가능 
 - 컬럼을 가져오려면 무조건 셀렉트, NULL이 있으면 계산이 안됨 exists 는 계산됨     
+
+![image](https://user-images.githubusercontent.com/89775352/166690426-d0bb91e6-f2fc-4ef8-b552-9ba5bcdfdcac.png)
