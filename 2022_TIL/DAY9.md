@@ -11,7 +11,7 @@ FROM EMPLOYEES
 -- SALARY중에 숫자 0이 포함되어있으면 없애라, 그리고 그 컬럼을 mis
 -- avg(salary) - avg(mis) 구해라 
 ```
-
+- 풀이 중, 공부해서 채워 넣기!!
 
 
 
