@@ -86,3 +86,10 @@ ORDER BY purchase_date
   -> 내 실력 아니다. 체화할 때 까지 분석해서 시간 걸리더라도 내것으로 만들기. 
 
 \- solvesql 문제 만들어 주신게 실제 sql 코딩 테스트 문제와 유사하다. 적극 활용하기
+
+- Retention, retention rate를 sql 쿼리로 구하는 법을 배웠다.
+- 위 데이터 분석을 통해 인사이트를 도출하는 법을 배웠다. 
+- concat(ROUND((month9/month0)*100,2),'%')month9
+
+![image](https://user-images.githubusercontent.com/89775352/167254704-364e2b85-889f-41a8-abec-fb7146eb98f0.png)
+
