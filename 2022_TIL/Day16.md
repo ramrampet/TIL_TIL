@@ -1,4 +1,5 @@
 HackerRank [The Report](https://www.hackerrank.com/challenges/the-report/problem?isFullScreen=true)
+- 나의 풀이 
 ```sql
 SELECT CASE WHEN Marks < 70 then NULL ELSE NAME END
       ,(CASE WHEN Marks BETWEEN 0 AND 9 THEN 1
@@ -17,3 +18,10 @@ FROM Students
 ORDER BY grade DESC, name
 ```
 - ORDER BY 를 여러개, ASC/ DESC 둘다 쓰고 싶을 때 나눠서 쓰기 
+- 이렇게 grade 테이블을 조인해주지 않고 case로 썼다.
+
+[다른 분의 풀이](https://mjs1995.tistory.com/113)
+
+![image](https://user-images.githubusercontent.com/89775352/168024821-b2324e12-c8a6-4437-b022-e803f63ad5a9.png)
+- 이게 더 짧고 성능이 좋은 것 같다.
+- 답을 냈다고 그치지말고 다른 사람의 풀이와 비교하며 성능 비교하기! 그런점에서 리트코드가 더 좋은 점이 있다. 
