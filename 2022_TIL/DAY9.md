@@ -6,17 +6,13 @@
 
 1. 
 ```sql
-SELECT *
+-- Write a query calculating the amount of error 
+SELECT CEIL(
+        AVG(salary)-AVG(REPLACE(salary,0,''))
+            )
 FROM EMPLOYEES
--- SALARY중에 숫자 0이 포함되어있으면 없애라, 그리고 그 컬럼을 mis
--- avg(salary) - avg(mis) 구해라 
 ```
-- 풀이 중, 공부해서 채워 넣기!!
-
-
-
-
-
+- 집계함수를 쓰지만 여기서 GROUP BY를 쓸 필요는 없다 값을 하나를 내고, 마지막에 CEIL을 붙여준다
 
 
 - SQLD 강의 들으면서 기초 다시 복습 
