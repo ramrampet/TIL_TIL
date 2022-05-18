@@ -101,3 +101,71 @@ ORDER BY created DESC, h.hacker_id ASC
 ![image](https://user-images.githubusercontent.com/89775352/168977412-00fa58a3-fa39-42e5-ae37-3974df1d5573.png)
 
 #### + SQL 스터디로 풀이 방법 더 적기
+
+
+[Contest Leaderboard](https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true)
+
+You did such a great job helping Julia with her last coding contest challenge that she wants you to work on this one, too! The total score of a hacker is the sum of their maximum scores for all of the challenge**s. Write a query to print the hacker\_id, name, and total score of the hackers ordered by the descending score.** If more than one hacker achieved the same total score, then sort the result by ascending hacker\_id. Exclude all hackers with a total score of 0 from your result.
+
+- Leader board! 
+
+\- 해커마다 submission한 점수를 더함, 그런데 같은 문제라면 그 문제의 최대 점수만 채택하여 더함
+
+\- 전체 점수가 0인 해커는 결과에서 제외 
+
+내 생각
+
+\- name은 나중에 붙이자! : 굿 
+
+> \- 한꺼번에 코드가 생각이 안날때 : 생각나는 것 부터 일단 요리조리 만들어 보자 👍😁👀
+
+\-- 0보다 크기- 
+
+```sql
+SELECT hacker_id, SUM(score)
+FROM submissions s 
+GROUP BY hacker_id 
+HAVING SUM(score) > 0
+```
+
+\- 이건 나중에 다른 코드로 붙이지만, 할 수 있는 거 먼저 해보는 차원에서 짝짝 
+
+  
+\-- **self join** 해서 이거랑 이게 같은지  : 이 아이디어 정말 잘했어! 
+
+```sql
+SELECT *
+FROM submissions s 
+     JOIN submissions s1 ON s1.challenge_id=s.challenge_id 
+                        AND s1.hacker_id=s.hacker_id
+```
+
+**\-- 내가 푼 정답 코드** 
+
+```sql
+SELECT a.hacker
+     , h2.name
+     , SUM(a.sco) as sum_sco   
+FROM (SELECT s.hacker_id AS hacker
+           , s.challenge_id AS challenge
+           , MAX(s.score) as sco
+      FROM submissions s 
+      JOIN submissions s1 ON s1.challenge_id=s.challenge_id 
+           AND s1.hacker_id=s.hacker_id  
+      GROUP BY s.hacker_id,s.challenge_id)a
+JOIN Hackers h2 ON h2.hacker_id=a.hacker      
+GROUP BY a.hacker, h2.name
+HAVING sum_sco > 0
+ORDER BY sum_sco DESC, a.hacker ASC
+```
+![image](https://user-images.githubusercontent.com/89775352/169042161-93a17fbd-3096-45df-91bc-1734828d65b0.png)
+
+- 100% 혼자 풀어서 매우 뿌듯하다! ㅎㅎ 3주전에 막히던 비슷한 문제를 내 힘으로 풀었어! 
+
+- 느낀점
+
+\- 그래..이 리더보드 문제를 푼 다음에 코딩테스트를 봤으면 엉뚱한 곳을 파지 않았을거야..
+
+\- 느리더라도 꾸준히 배우면서 매일 문제 풀이 하자! 정도 정도! 
+
+**\+ SQL 스터디로 보강**
