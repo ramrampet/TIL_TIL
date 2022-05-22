@@ -1,4 +1,4 @@
-[symmetric-pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem?isFullScreen=true) 
+[HackerRank_symmetric-pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem?isFullScreen=true) 
 
 
 1\. 여기서 f2.X, f2.Y를 없애주면 자꾸만 오답이 나왔다. 
