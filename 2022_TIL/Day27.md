@@ -37,3 +37,7 @@ HAVING COUNT(distinct team) > 1
 
 - 계속 어떻게 국적이 두개인 것을 알아낼까, 셀프 조인해야하나 생각해야하는데 간편한 distinct를 잊었다니..! 
 
+
+[데이터 마이닝 논문 리뷰 (AI 스터디, 발표자: 본인) ](https://docs.google.com/presentation/d/1LMarbaxLyRBWY0nALOV8IX6ciMncQzCwTgdOn3AuT80/edit?usp=sharing)
+
+- A review of data mining methods in RFM-based customer segmentation
