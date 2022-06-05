@@ -121,3 +121,12 @@ GROUP BY payment_installments
 에러가 나면? (결과 값이 정답보다 많을 때)
 1. 빠뜨린 조건이 없나 살펴보고
 2. DISTINCT를 써야하지는 않나 생각해보기!
+
+[최근 올림픽이 개최된 도시](https://solvesql.com/problems/olympic-cities/)
+```sql 
+SELECT year, UPPER(LEFT(city,3)) 
+FROM games
+WHERE year >= 2000
+ORDER BY year DESC 
+```
+- LEFT, UPPER을 잘 안써서 쉽게 생각이 안났다. 
