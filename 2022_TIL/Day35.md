@@ -1,3 +1,5 @@
+## TIL
+
 **한문제 한문제 잘근 잘근 씹어먹기\_SQL 성장기 🌟**
 
 [지역별 주문의 특징](https://solvesql.com/problems/characteristics-of-orders/)
@@ -49,7 +51,6 @@ ORDER BY Region
 - 다른 분들의 풀이와 비교해보니 너무 이상하게 푼 것 같다.  이유: 알리야스를 지정해 쉽게 연산하고 싶었다. (흐유)
 
 **의문점 \[미해결\]** - 사실 아직까지 왜 답이 안나오는지 명확하게 설명을 못하겠다. 쿼리 결과를 비교하면서 알아봐야지
-![image](https://user-images.githubusercontent.com/89775352/173234566-06db2b6c-3b42-46f2-8fd9-517cd6761c8b.png)
 
 **풀이 2.** 내 풀이 + 다른 분 풀이 
 
@@ -66,8 +67,7 @@ ORDER BY furniture_pct DESC, order_date
 ```
 
  - 정답! , 정말 서브 쿼리 쓸 필요 없었는데.. 
- 
-![image](https://user-images.githubusercontent.com/89775352/173234573-4d51b238-bcca-4688-af7b-5aaf108d308c.png)
+
 
 - 스터디 시간에 같이 해결해보도록 하자.
 
