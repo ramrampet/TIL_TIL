@@ -1,3 +1,10 @@
+## 감사일기 
+- 나: 열심히 SQL 공부에 재미를 느낀 나에게 감사하다
+- 타인:  예란이와 초등학교 여름 캠프 같은 시간을 보내서 즐거웠다. 함께 고민을 나누고 즐겁게 논 예란이에게 감사하다.
+- 물질: 맥주 4캔을 살 수 있는 금전적 여유와 돈에 쪼들리지 않는 나와 부모님에게 감사하다.
+- 경험: 코드를 치고, 문제를 풀면서 행복감을 느낀 경험에 감사하다. 별장에서 자연 속에서 힐링을 하면서 책을 읽을 수 있어서 행복했다. 
+
+## TIL 
 [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)
 ​
 ```sql
@@ -63,6 +70,6 @@ WHERE id NOT IN ( SELECT customerid FROM Orders )
 - 왜 같은 문제, 같은 쿼리인데 성능이 천차만별 인 것일까?
 - 그래서 질문을 남겼다. 
 
-[##_Image|kage@dp7WyV/btrFuv7vmcM/qeKUXy0fzDUHGKypdqUnGk/img.png|CDM|1.3|{"originWidth":294,"originHeight":371,"style":"alignCenter"}_##]
+![image](https://user-images.githubusercontent.com/89775352/175099856-9f9e2beb-d16c-4cc8-b2d9-16f5e8051a78.png)
 
 지엽적인 문제일 수 있으니 일단 저장해 놓고 가겠다.
