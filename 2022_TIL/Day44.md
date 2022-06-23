@@ -1,4 +1,12 @@
-[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
+## 감사일기 
+- 나: 긍정적인 사고로 스터디 카페에 가서 열심히 공부를 하고 코딩을 즐겁게한 나에게 감사하다
+- 타인: 같이 줌을 키고 유대감을 형성하면서 각자 일을 할 수 있는 친구들이 있어서 감사하다
+- 물질: 고기가 들어간 비빔 냉면을 먹었다. 북한에 태어났다면 먹기 힘들었을 텐데.. 남한에 태어나서 감사하다.
+- 경험: 나의 늦은 귀가길을 걱정해주는 부모님이 있어서 감사하다 
+
+
+## TIL 
+[185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)
 
 (1) 나의 풀이 
 
