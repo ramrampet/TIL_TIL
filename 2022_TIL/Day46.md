@@ -37,7 +37,7 @@ WHERE sales_id NOT IN (
 ​
 [627. Swap Salary](https://leetcode.com/problems/swap-salary/)
 ​
-```
+```sql
 UPDATE Salary SET sex=IF(sex='m','f','m')
 ```
 ​
@@ -47,7 +47,7 @@ UPDATE 에 IF 문을 써서 조건에 맞는 값으로 UPDATE 하고 싶을 경�
 ​
 [1084. Sales Analysis III](https://leetcode.com/problems/sales-analysis-iii/)
 ​
-```
+```sql
 SELECT p.product_id
       ,p.product_name
 FROM Sales s 
@@ -61,9 +61,9 @@ WHERE p.product_id NOT IN (
 ​
 [##_Image|kage@rzTfp/btrFGgCFJYn/AoN5ZAdUncbsSi8K969aT1/img.png|CDM|1.3|{"originWidth":1139,"originHeight":768,"style":"alignCenter"}_##]
 ​
-\- 역시 제외하여 쓰는게 정확! 
+- 역시 제외하여 쓰는게 정확! 
 ​
-\- Accepted 되었는데 제출하니 Wrong answer가 나왔다. 답도 맞는데..? 컴퓨터 문제인가 하여 discussion에 질문을 남겼다. Wish 🎁
+- Accepted 되었는데 제출하니 Wrong answer가 나왔다. 답도 맞는데..? 컴퓨터 문제인가 하여 discussion에 질문을 남겼다. Wish 🎁
 ​
 내 질문 중 발췌 
 ​
