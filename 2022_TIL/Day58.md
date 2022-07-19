@@ -67,3 +67,63 @@ for x in array:
 print(summary)
 ```
 - 시간 복잡도 : O(N) , 수행 시간은 데이터 개수 N에 비례 
+
+#### 함수 
+
+- 내장 함수 : 파이썬이 기본적으로 제공하는 함수 
+- 사용자 정의 함수 : 개발자가 직접 정의하여 사용할 수 있는 함수 
+
+```
+a = 10
+def func():
+  a += 1
+  print(a)
+
+func()
+```
+- 이렇게 쓰면 변수 a가 선언되지 않았다고 말할 것임, 지역변수 
+
+```
+a = 10
+def func():
+  global a   
+  a += 1
+  print(a)
+
+func()
+```
+- 이렇게 전역변수 global a 를 선언해줘야 참조 가능 
+```
+a = 10
+def func():
+  print(a)
+
+func()
+
+a = 10
+def func():
+  print(a+30)
+
+func()
+```
+- 하지만 위처럼 이렇게 값을 변경하거나 새로운 값을 대입하는 게 아니라 단순히 전역변수로 선언되어 값을 참조하는 것은 문제가 없음 
+```
+array= [1,2,3,4,5]
+
+def func():
+  array.append(6)
+  print(array)
+
+func()
+```
+- 전역 변수로 선언된 내부 메소드를 사용하는 것은 또 오류 없이 수행이 가능함
+
+#### 표준 라이브러리
+- 내장함수, itertools,heapq,bisect,collections,math 
+```
+# eval ()
+# 사람의 입장에서 수식으로 표현된 것이 있을 때 수로 돌려주는 내장 함수
+result = eval("(3+5)*7)")
+print(result)
+
+# sorted()
