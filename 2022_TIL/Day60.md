@@ -6,6 +6,23 @@
 - 파이썬 데이터 타입을 자유롭게 변형하는 법을 보완해야겠다고 느꼈다.
 - 디비버 사용 능력도 더 잘할 수 있을텐데..
 
+[머신러닝/ML\] 결측치 처리하는 7가지 방법](https://daebaq27.tistory.com/43)
+
+[\- 원문 Seven Ways to Make up Data: Common Methods to Imputing Missing Data](https://www.theanalysisfactor.com/seven-ways-to-make-up-data-common-methods-to-imputing-missing-data/)
+
+ [Seven Ways to Make up Data: Common Methods to Imputing Missing Data - The Analysis Factor
+www.theanalysisfactor.com](https://www.theanalysisfactor.com/seven-ways-to-make-up-data-common-methods-to-imputing-missing-data/)
+
+[\- KCI 논문, 디지털 데이터에서 데이터 전처리를 위한 자동화된결측 구간 대치 방법에 관한 연구](https://koreascience.kr/article/JAKO202106763002114.pdf)
+
+[\- All You Need To Know About Different Types Of Missing Data Values And How To Handle It](https://www.analyticsvidhya.com/blog/2021/10/handling-missing-value/)
+
+
+ [데이터 분석 최대의 적! 결측치(NA값)처리하기](https://m.blog.naver.com/tjdudwo93/220976082118)
+
+
+[- 사이킷런](https://scikit-learn.org/stable/modules/impute.html)
+
 ## 감사일기
 - 나: 비가 엄청 쏟아졌다가 갑자기 햇빛이 비췄는데 스벅에서 공부하다가 그 순간을 마주했을 때 행복감과 감사함을 느꼈다. 이런 생각을 할 수 있는 여유가 있는 나에게 감사한다.
 - 타인: 오늘 통장 개설 등에 현금이 필요했는데 계좌이체로 흔쾌히 바꿔주신 인심 좋은 분드에게 감사드린다.
