@@ -63,4 +63,6 @@ print(result)
 ### 구현 (Implementation)
 ![image](https://user-images.githubusercontent.com/89775352/180602736-673b76e3-a34d-4afd-bb73-158990f07f35.png)
 - 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제를 지칭 
+
 ![image](https://user-images.githubusercontent.com/89775352/180602821-c4e431bd-0966-4a7d-9e30-43afb930ab22.png)
+- 상하좌우 문제 어렵다..
